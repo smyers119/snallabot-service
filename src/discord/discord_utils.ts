@@ -643,54 +643,54 @@ export function createProdClient() {
 
 export enum SnallabotTeamEmojis {
   // AFC East
-  NE = "<:snallabot_ne:1364103345752641587>",
-  NYJ = "<:snallabot_nyj:1364103346985635900>",
-  BUF = "<:snallabot_buf:1364103347862372434>",
-  MIA = "<:snallabot_mia:1364103349091176468>",
+  NE = "<:ne:1450565344824393929>",
+  NYJ = "<:nyj:1450565352000978955>",
+  BUF = "<:buf:1450565321290154065>",
+  MIA = "<:mia:1450565341955620974>",
 
   // AFC North
-  CIN = "<:snallabot_cin:1364103477399130144>",
-  PIT = "<:snallabot_pit:1364103356393455667>",
-  BAL = "<:snallabot_bal:1364105429591785543>",
-  CLE = "<:snallabot_cle:1364103360545820742>",
+  CIN = "<:cin:1450565325077876882>",
+  PIT = "<:pit:1450565355201232896>",
+  BAL = "<:bal:1450565319784403037>",
+  CLE = "<:cle:1450565325996163102>",
 
   // AFC South
-  TEN = "<:snallabot_ten:1364103353201856562>",
-  IND = "<:snallabot_ind:1364103350194278484>",
-  JAX = "<:snallabot_jax:1364103352115400774>",
-  HOU = "<:snallabot_hou:1364103351184396318>",
+  TEN = "<:ten:1450565366693625856>",
+  IND = "<:ind:1450565333239730249>",
+  JAX = "<:jax:1450565334527643709>",
+  HOU = "<:hou:1450565331377721395>",
 
   // AFC West
-  KC = "<:snallabot_kc:1364105564711288852>",
-  LV = "<:snallabot_lv:1364105565885825114>",
-  DEN = "<:snallabot_den:1364103366765973615>",
-  LAC = "<:snallabot_lac:1364103363297411142>",
+  KC = "<:kc:1450565335618158692>",
+  LV = "<:lv:1450565340806517019>",
+  DEN = "<:den:1450565327585804308>",
+  LAC = "<:lac:1450565337375309834>",
 
   // NFC East
-  DAL = "<:snallabot_dal:1364105752087887902>",
-  NYG = "<:snallabot_nyg:1364103377411244124>",
-  PHI = "<:snallabot_phi:1364105809134354472>",
-  WAS = "<:snallabot_was:1364103380728811572>",
+  DAL = "<:dal:1450565326772113479>",
+  NYG = "<:nyg:1450565350482645084>",
+  PHI = "<:phi:1450565353791815834>",
+  WAS = "<:was:1450565367889002507>",
 
   // NFC North
-  MIN = "<:snallabot_min:1364106069160493066>",
-  CHI = "<:snallabot_chi:1364103373825249331>",
-  DET = "<:snallabot_det:1364106151796670526>",
-  GB = "<:snallabot_gb:1364103370289184839>",
+  MIN = "<:min:1450565343444598795>",
+  CHI = "<:chi:1450565323924312288>",
+  DET = "<:det:1450565328596635751>",
+  GB = "<:gb:1450565330236608743>",
 
   // NFC South
-  NO = "<:snallabot_no:1364103387758592051>",
-  CAR = "<:snallabot_car:1364106419804045353>",
-  TB = "<:snallabot_tb:1364103384222797904>",
-  ATL = "<:snallabot_atl:1364106360383471737>",
+  NO = "<:no:1450565347768795286>",
+  CAR = "<:car:1450565322774941849>",
+  TB = "<:tb:1450565365255114914>",
+  ATL = "<:atl:1450565318924566718>",
 
   // NFC West
-  ARI = "<:snallabot_ari:1364106640315646013>",
-  LAR = "<:snallabot_lar:1364103394800701450>",
-  SEA = "<:snallabot_sea:1364103391260840018>",
-  SF = "<:snallabot_sf:1364106686083895336>",
+  ARI = "<:ari:1450565316651257998>",
+  LAR = "<:lar:1450565339309015265>",
+  SEA = "<:sea:1450565356178378886>",
+  SF = "<:sf:1450565363883573270>",
   // Default, NFL logo
-  NFL = "<:snallabot_nfl:1364108784229810257>"
+  NFL = "<:nfl:1450565346087010354>"
 }
 
 export function getTeamEmoji(teamAbbr: string, leagueCustomLogos: LeagueLogos): string {
