@@ -1,13 +1,13 @@
 export const AUTH_SOURCE = 317239
-export const CLIENT_SECRET = "teJpJ9cSXFqZAuKNW8IuHpy8D4dwWPoVrPoek38iCnrGbrUSfjqnHMBAv8iCVjeSm_20250910175618"
+export const CLIENT_SECRET = "wfGAWnrxLroZOwwELYA2ZrAuaycuF2WDb00zOLv48Sb79viJDGlyD6OyK8pM5eIiv_20240731135155"
 export const REDIRECT_URL = "http://127.0.0.1/success"
-export const CLIENT_ID = "MCA_26_COMP_APP"
+export const CLIENT_ID = "MCA_25_COMP_APP"
 export const MACHINE_KEY = "444d362e8e067fe2"
 export const EA_LOGIN_URL = `https://accounts.ea.com/connect/auth?hide_create=true&release_type=prod&response_type=code&redirect_uri=${REDIRECT_URL}&client_id=${CLIENT_ID}&machineProfileKey=${MACHINE_KEY}&authentication_source=${AUTH_SOURCE}`
 
 
-export const TWO_DIGIT_YEAR = "26"
-export const YEAR = "2026"
+export const TWO_DIGIT_YEAR = "25"
+export const YEAR = "2025"
 
 export const VALID_ENTITLEMENTS = ((a: string) => ({
   xone: `MADDEN_${a}XONE`,
@@ -92,12 +92,12 @@ export const NAMESPACES = {
 }
 
 export const BLAZE_SERVICE = ((a: string) => ({
-  xone: `madden-${a}-xone`,
-  ps4: `madden-${a}-ps4`,
-  pc: `madden-${a}-pc`,
-  ps5: `madden-${a}-ps5`,
-  xbsx: `madden-${a}-xbsx`,
-  stadia: `madden-${a}-stadia`,
+  xone: `madden-${a}-xone-gen4`,
+  ps4: `madden-${a}-ps4-gen4`,
+  pc: `madden-${a}-pc-gen5`,
+  ps5: `madden-${a}-ps5-gen5`,
+  xbsx: `madden-${a}-xbsx-gen5`,
+  stadia: `madden-${a}-stadia-gen5`,
 }))(YEAR)
 
 export const BLAZE_SERVICE_TO_PATH = ((a: string) => ({

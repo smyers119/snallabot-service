@@ -706,11 +706,11 @@ function getDevTraitName(devTrait: DevTrait, yearsPro: number): string {
 }
 
 enum SnallabotDevEmojis {
-  NORMAL = "<:snallabot_normal_dev:1363761484131209226>",
-  STAR = "<:snallabot_star_dev:1363761179805220884>",
-  SUPERSTAR = "<:snallabot_superstar_dev:1363761181525020703>",
-  XFACTOR = "<:snallabot_xfactor_dev:1363761178622562484>",
-  HIDDEN = "<:snallabot_hidden_dev:1363761182682517565>"
+  NORMAL = "<:normal_dev:1450565265279553667>",
+  STAR = "<:StarDev:1450565271524999375>",
+  SUPERSTAR = "<:Superstar:1450565275328975060>",
+  XFACTOR = "<:SuperstarXFactor:1450565273957568522>",
+  HIDDEN = "<:Hidden:1450565264390230207>"
 }
 const rules = new Intl.PluralRules("en-US", { type: "ordinal" })
 const suffixes = new Map([
@@ -797,8 +797,8 @@ ${formatAttributes(topAttributes)}${getPositionalTraits(player)}${abilities}`
 
 function formatYesNoTrait(trait: YesNoTrait) {
   switch (trait) {
-    case YesNoTrait.YES: return "<:snallabot_yes:1368090206867030056>"
-    case YesNoTrait.NO: return "<:snallabot_nope:1368090205525115030>"
+    case YesNoTrait.YES: return "<:Checkmark:1450565255506825388>"
+    case YesNoTrait.NO: return "<:Cross:1450565263270477915>"
     default: return "Unknown"
   }
 }
@@ -1067,9 +1067,9 @@ function formatScore(game: MaddenGame) {
 }
 
 enum SnallabotGameResult {
-  WIN = "<:snallabot_win:1368708001548079304>",
-  LOSS = "<:snallabot_loss:1368726069963653171>",
-  TIE = "<:snallabot_tie:1368713402016337950>"
+  WIN = "<:win:1451043499389489193>",
+  LOSS = "<:loss:1451042988259151912>",
+  TIE = "<:tie:1451043913480802405>"
 }
 
 function formatGameEmoji(game: MaddenGame, playerTeam: number, teams: TeamList) {
