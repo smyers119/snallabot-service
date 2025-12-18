@@ -18,10 +18,10 @@ function notifierMessage(users: string, waitPing: number, role: RoleId): string 
 }
 
 enum SnallabotCommandReactions {
-  LOADING = "<a:snallabot_loading:1288662414191104111>",
-  WAITING = "<a:snallabot_waiting:1288664321781399584>",
-  FINISHED = "<a:snallabot_done:1288666730595618868>",
-  ERROR = "<:snallabot_error:1288692698320076820>"
+  LOADING = "<a:5956loadingghostss:1450565253313200269>",
+  WAITING = "<a:3393waiting:1450565250754809987>",
+  FINISHED = "<a:32423check:1450565254600986715>",
+  ERROR = "<:4561pinkerror:1450565251891200062>"
 }
 
 async function createGameChannels(client: DiscordClient, token: string, guild_id: string, settings: LeagueSettings, week: number, category: CategoryId, author: UserId) {
