@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "npx jest",
-    "build": "npx tsc && cp -r src/public dist/ && cp -r emojis dist/ && cp -r src/dashboard/templates dist/dashboard",
-    "start": "node dist/index.js",
+    "build": "build() { OUTDIR=\"${1:-dist}\"; rm -rf \"$OUTDIR\" && npx tsc --outDir \"$OUTDIR\" && cp -r src/public \"$OUTDIR\"/ && cp -r emojis \"$OUTDIR\"/ && cp -r src/dashboard/templates \"$OUTDIR\"/dashboard; }; build",
+    "start": "start() { OUTDIR=\"${1:-dist}\"; node \"$OUTDIR\"/index.js && kill $!; }; start",
     "yt-notifier": "node dist/yt-notifier/index.js",
     "pinger": "node dist/discord/pinger.js",
     "migration-20241218": "node dist/export/migration.js",
